@@ -1,6 +1,6 @@
 import * as React from "react"
 import {
-  Hamburger,
+  
   NavCategory,
   NavCategoryItem,
   NavDrawer,
@@ -47,10 +47,16 @@ import {
   Settings20Regular,
   Person20Filled,
   Person20Regular,
+  LaptopPerson20Filled,
+  LaptopPerson20Regular,
+  Laptop20Filled,
+  Laptop20Regular,
   bundleIcon
 } from "@fluentui/react-icons"
 
 import { useState } from "react"
+const Laptop = bundleIcon(Laptop20Filled,Laptop20Regular)
+const LaptopPerson = bundleIcon(LaptopPerson20Filled ,LaptopPerson20Regular)
 const Person = bundleIcon(Person20Filled, Person20Regular);
 const BuildingHome = bundleIcon(BuildingHome20Filled,BuildingHome20Regular)
 const Dashboard = bundleIcon(Board20Filled, Board20Regular)
@@ -141,6 +147,13 @@ export const Sidebar = ({isOpen}) => {
           Property Insurance
           </NavItem>
 
+          <NavSectionHeader>IT</NavSectionHeader>
+          <NavItem icon={<Laptop />} value="55">
+          IT Assets List
+          </NavItem>
+          <NavItem icon={<LaptopPerson />} value="505">
+          IT Assets Users
+          </NavItem>
 
 
           <NavSectionHeader>Procurements</NavSectionHeader>
@@ -153,7 +166,7 @@ export const Sidebar = ({isOpen}) => {
               <NavSubItem href="" value="17">
               Suppliers List
               </NavSubItem>
-              <NavSubItem href="" value="18">
+              <NavSubItem href="" value="118">
               Suppliers Quotations
               </NavSubItem>
 
