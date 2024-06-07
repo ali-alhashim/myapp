@@ -133,6 +133,10 @@ export const Sidebar = ({isOpen}) => {
             Interviews
           </NavItem>
 
+          <NavItem icon={<Interviews />} value="90">
+            Employees
+          </NavItem>
+
           <NavItem icon={<TrainingPrograms />} value="15">
             Training Programs
           </NavItem>
@@ -179,6 +183,22 @@ export const Sidebar = ({isOpen}) => {
               </NavSubItem>
             </NavSubItemGroup>
           </NavCategory>
+
+
+          <NavSectionHeader>Real Estate Management</NavSectionHeader>
+            <NavSubItem href="" value="81">
+              Buildings
+            </NavSubItem>
+            <NavSubItem href="" value="81">
+              Units
+            </NavSubItem>
+            <NavSubItem href="" value="81">
+              Parking Lot 
+            </NavSubItem>
+            <NavSubItem href="" value="81">
+              Leasing Contracts 
+            </NavSubItem>
+            
 
           <NavSectionHeader>Analytics</NavSectionHeader>
           <NavItem target="_blank" icon={<Analytics />} value="19">

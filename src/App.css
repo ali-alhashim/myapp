@@ -1,6 +1,7 @@
-body, App{
+body, App , html{
     margin: 0;
     height: 100vh;
+    overflow: hidden;
 }
 
 .root{
