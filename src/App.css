@@ -39,3 +39,9 @@ body, App{
     color: #fff;
 
 }
+
+.navbar-center-items{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
